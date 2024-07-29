@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+
+  {% include head.html %}
+  {% include header.html %}
+  {% include script.html %}
+
+<style>
+  /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+</style>
+
+  <body>
+    {{ content }}
+  </body>
+
+  {% include footer.html %}
+</html>

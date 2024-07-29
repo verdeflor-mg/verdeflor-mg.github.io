@@ -1,0 +1,74 @@
+<!-- Footer -->
+<footer> 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3><i class="fa fa-map-marker"></i> Contato:</h3>
+        <p class="footer-contact">
+          {{ site.company_name }} <br>
+          Telefone 1: {{ site.telephone_number }} <br>
+          <!-- Telefone 2: {{ site.fax_number }} <br>-->
+          Email: {{ site.company_email }}<br>
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h3><i class="fa fa-external-link"></i> Links</h3>
+        <p><a href="/about"> Sobre Nós</a></p>
+        <p><a href="/about"> Nossos Serviços</a></p>
+        <p><a href="/contact"> Contato</a></p>
+        <!--<p><a href="/blog"> Blog ( Write to us )</a></p>
+        <p><a href="/suculentas"> Suculentas</a></p>
+        <p><a href="/suculentas"> Cactos</a></p>
+        <p><a href="/suculentas"> Arranjos</a></p>
+        <p><a href="/team"> Equipe</a></p> -->
+      </div>
+      <div class="col-md-4">
+        <h3><i class="fa fa-heart"></i> Redes Sociais</h3>
+        <div id="social-icons">
+          <!--{% if site.googleplus_link %}
+            <a href="{{ site.googleplus_link }}" class="btn-group google-plus">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          {% endif %}
+
+          {% if site.linkedin_link %}
+            <a href="{{ site.linkedin_link }}" class="btn-group linkedin">
+              <i class="fa fa-linkedin-square"></i>
+            </a>
+          {% endif %}
+          
+          {% if site.facebook_link %}
+            <a href="{{ site.twitter_link }}" class="btn-group twitter">
+              <i class="fa fa-twitter"></i>
+            </a>
+          {% endif %}
+
+          
+          -->
+          
+          {% if site.instagram_link %}
+            <a href="{{ site.instagram_link }}" class="instagram">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          {% endif %}
+          
+          {% if site.whatsapp_link %}
+            <a href="{{ site.whatsapp_link }}" class="btn-group facebook">
+              <i class="fa fa-whatsapp"></i>
+            </a>
+          {% endif %}
+
+          {% if site.facebook_link %}
+            <a href="{{ site.facebook_link }}" class="btn-group facebook">
+              <i class="fa fa-facebook"></i>
+            </a>
+          {% endif %}
+        </div>
+      </div>    
+    </div>
+  </div>
+
+  <div class="copyright text center">
+    <p>&copy; Copyright {{ site.time | date: '%Y' }}, <a href="#">Verde Flor Cactos e Suculentas</a>. <br>Agradecemos sua visita - <a href="https://florverde.github.io/" target="_blank">Elizete e Claúdia Lana</a></p>
+  </div>
+</footer>
