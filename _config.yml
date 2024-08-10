@@ -13,24 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Verde Flor - Cactos e Suculentas
-email: verdeflorcactosesuculentas@gmail.com
+title: Verde Flor - Cactos, Suculentas, folhagens e vasos
+email: verdeflor.mg@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Yet another Jekyll theme. It is designed for business purpose and ported by 
   Melvin Ch'ng.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "verdeflor-mg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Company Information
-company_name: Verde Flor - Cactos e Suculentas
+company_name: Verde Flor
 address_line: Teixeiras - MG
 telephone_number: (031) 995035243
-company_email: verdeflorcactosesuculentas@gmail.com
+company_email: verdeflor.mg@gmail.com
 google_map: https://www.google.com/maps/d/embed?mid=1t6mXszV66d0hxvGAgSStd996sN_JxMk&ehbc=2E312F
 # Social Link
 facebook_link: http://www.facebook.com
 twitter_link: http://www.twitter.com
-linkedin_link: http://www.linkedin.com
+instagram_link: http://www.instagram.com
 googleplus_link: http://plus.google.com
 
 # Build settings
