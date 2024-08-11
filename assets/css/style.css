@@ -265,11 +265,10 @@ address {
   padding: 30px;
   letter-spacing: .9px;
 }
-<!--fundo das suculentas e demais plntas e vasos-->
 @media (min-width: 800px){ 
  
     .side-left{
-  height: 900px;
+  height: 1248px;
 }
  }
 
