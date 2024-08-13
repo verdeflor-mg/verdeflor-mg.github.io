@@ -795,7 +795,7 @@ Teste
 
 /* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
+  background-color: green;
 }
 
 /* Style the subnav content - positioned absolute */
@@ -803,7 +803,7 @@ Teste
   display: none;
   position: absolute;
   left: 0;
-  background-color: red;
+  background-color: green;
   width: 100%;
   z-index: 1;
 }
