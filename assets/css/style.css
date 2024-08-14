@@ -871,3 +871,59 @@ Testando Dropdown
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*Dropdown 2*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    margin: 5px 0 0 5px;
+}
+ 
+.menu {
+    list-style: none; 
+    border: 1px solid #0f0; 
+    float: left; 
+}
+ 
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #0f0;
+    margin: 0 -1px 0 0;
+}
+ 
+.menu li a {
+    color: #0f0;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: -1px 0 -1px 0;
+    display: block;
+}
+ 
+.menu li a:hover {
+    background:#0f0;
+    color: #fff;
+}
+ 
+.menu li ul {
+    position: absolute;
+    top: 29px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+}
+ 
+.menu li:hover ul {
+    display: block;
+}
+ 
+.menu li ul li{
+    border: 1px solid #0f0;
+    display: block;
+    margin: 0 0 -1px 0;
+    width: 150px;
+}
